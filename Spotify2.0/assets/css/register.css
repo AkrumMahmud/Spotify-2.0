@@ -1,0 +1,151 @@
+html, body { 
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#background {
+	background-color: black;
+	background-image: url(../images/sunset.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer * {
+	color: white;
+	font-family: "Helvetica Neue", "arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	max-width: 1024px;	
+}
+
+#inputContainer {
+	width: 400px;
+	padding: 50px;
+	float: left;
+	border-right: 1px solid white;
+}
+
+#inputContainer h2 {
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+	display: block;
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px solid white;
+	height: 27px;
+	line-height: 27px;
+	width: 100%;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    white;
+}
+
+#inputContainer label{
+	color: white;
+	font-size: 15px;
+	margin-top: 17px;
+	display: block;
+}
+
+#inputContainer button {
+	background-color: transparent;
+	border: 1px solid white;
+	border-radius: 200px;
+	color: white;
+	display: block;
+	font-size: 15px;
+	letter-spacing: 1px;
+	margin: 20px auto;
+	height: 41px;
+	width: 100%;
+}
+
+#inputContainer button:hover{
+	cursor: pointer;
+}
+
+.hasAccount span{
+	font-weight: bold;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.hasAccount{
+	text-align:center;	
+}
+
+#registerForm {
+	display: none;
+}
+
+#loginForm {
+	display: none;
+}
+
+#loginText{
+	padding: 50px;
+	display: table-cell;
+}
+
+#loginText h1{
+	color: aqua;
+	font-size: 65px;
+	font-weight: bold;
+}
+
+#loginText h2{
+	margin: 40px 0;
+}
+
+#loginText ul{
+	padding: 10;
+}
+
+#loginText li{
+	font-size: 22px;
+	padding: 13px;
+	color: aqua;
+}
+
+#inputContainer .errorMessage{
+	color: aqua;
+	font-size: 11px;
+	display: block;
+}
+
+
+
